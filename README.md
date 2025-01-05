@@ -15,10 +15,10 @@ This Python script retrieves the usernames of all members in a specified GitHub 
    ```
 
 ## Usage
-1. Save the script as `github_org_members.py`.
+1. Save the script as `github.py`.
 2. Run the script:
    ```bash
-   python3 github_org_members.py
+   python3 github.py
    ```
 3. Enter the GitHub organization name when prompted.
 4. The script saves the usernames to `<organization_name>_members.txt`.
@@ -29,7 +29,7 @@ For the organization `shopify`, the output will be saved in `shopify_members.txt
 ## Troubleshooting
 - **Missing dependencies for SOCKS support**: Install `PySocks`:
   ```bash
-  python3 -m pip install requests[socks]
+  python3 -m pip install requests
   ```
 - **Tor not running**: Start Tor:
   ```bash
